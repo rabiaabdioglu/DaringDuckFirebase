@@ -29,13 +29,13 @@ class SignInViewController: UIViewController {
     
     var warningMessage = CustomWarningLabel(text: "", color: UIColor.styledErrorRed)
     
-    override func viewWillAppear(_ animated: Bool) {
-        if Auth.auth().currentUser != nil {
-            self.dismiss(animated: true)
-        }
-        
-    }
-    
+//    override func viewWillAppear(_ animated: Bool) {
+//        if Auth.auth().currentUser != nil {
+//            self.dismiss(animated: true)
+//        }
+//        
+//    }
+//    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
